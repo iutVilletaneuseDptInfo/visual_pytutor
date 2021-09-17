@@ -2,7 +2,7 @@ define([ "require", "jquery", "base/js/namespace", "base/js/events"],
     function( requirejs, $, IPython, events){
     
     // btnvisu is string containing the html element which has the button to python tutor
-    var btnvisu = '<div class="bntPythonTutor" title="Python tutor" style=" cursor: pointer; color: #333; position: absolute; top: 30px; left: 20px;"><i class="fa fa-eye"></i><span class="toolbar-btn-label">Python Tutor</span></div>';
+    var btnvisu = '<div class="bntPythonTutor" title="Python tutor" style=" cursor: pointer; color: #333; position: absolute; top: 30px;"><i class="fa fa-eye"></i><span class="toolbar-btn-label">Python Tutor</span></div>';
     
     // this variable contains the different parameters of the extension
     var params = { add_btn_toobar: true, add_btn_cell: true, server_url: "http://pythontutor.com/" };
